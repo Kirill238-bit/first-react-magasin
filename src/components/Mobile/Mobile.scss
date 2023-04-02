@@ -1,0 +1,114 @@
+@media (max-width:992px) {
+    .body{
+        max-width: 320px!important;
+        padding: 0%!important;
+        margin: 0%!important;
+    }//шапка
+    .header{
+        width: 320px!important;
+    }
+    .adress{
+        display: none!important;
+    }
+    .menu,h5,h3,h4{
+        display: inline!important;
+        h5,h3,h4,.women{
+        display: none!important;
+        }
+    }
+    //главная
+    .main{
+        .main-info{
+            display:block!important;
+            margin: 50px!important;
+            
+        }
+        .main-info-img{
+            width: 320px!important;
+            height: 500px!important;
+            background-color: #fff;
+        }
+    .main-conteiner{
+        max-width: 100%!important;
+        max-height:100%!important;
+        background-image: center!important;
+        .main-conteiner-info{
+            margin: 0%!important;
+            display: block!important;
+            width: 320px!important;
+        }
+       button,h4{
+        display: none!important;
+        padding: 0%!important;
+       }
+       
+    }
+    .main-info-img{
+        display: inline!important;
+        height: none!important;
+        width: 250px!important;
+        height: none!important;
+        }
+    }
+    .main-info-map-img{
+        margin: 0px !important;
+        width: 100%!important;
+        height: 700px!important;
+
+    }
+    .main-info-map-text{
+        display: inline;
+        width: 320px!important;
+        margin-top: 0%!important;
+    }
+    
+//акционные товары
+.aktion-products{
+    display: block!important;
+}
+
+//страница с товарами
+.shop-conteiner{
+    padding: 0%!important;
+    margin:0%!important;
+}
+.shop{
+    display: block!important;
+}
+.typeBar{
+    display:block!important;
+    padding-left: 150px!important;
+}
+.shop-products{
+    max-width: 320px!important;
+    display:block!important;
+}
+    //подвал
+    .footer-conteiner{
+        display: block!important;
+            .footer-info1,.footer-info2,.footer-conteiner3,.footer-conteiner4,.footer-conteiner5{
+                width: 320px!important;
+                margin-top: 5%!important;
+                margin-bottom:0%!important;
+            }
+    }
+    //корзина
+    .basket-conteiner{
+        padding: 0%!important;
+        .order-items{
+            display: block!important;
+            width: 320px!important;
+            .total-price,.order-items{
+                margin:0%!important;
+                padding: 0%!important;
+            }
+        }
+    }
+    //оформление заказа 
+    .oform-order{
+        display: block!important;
+    }
+    .oform-basket{
+        display:none;
+    }
+}
